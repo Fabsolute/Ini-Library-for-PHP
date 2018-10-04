@@ -1,0 +1,10 @@
+{
+  "autoload": {
+    "psr-4": {
+      "Fabstract\\INI\\": "src"
+    }
+  },
+  "require": {
+    "fabstract/assert": "^1.0"
+  }
+}
