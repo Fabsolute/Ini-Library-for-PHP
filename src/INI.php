@@ -24,7 +24,7 @@ class INI
 
     /**
      * @param string $file_name
-     * @return static
+     * @return INI
      */
     public static function fromFile($file_name)
     {
@@ -34,7 +34,7 @@ class INI
 
     /**
      * @param string $content
-     * @return static
+     * @return INI
      */
     public static function fromString($content)
     {

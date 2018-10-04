@@ -36,7 +36,7 @@ class Line
      * @param string $type
      * @param string $value
      * @param string $key
-     * @return static
+     * @return Line
      */
     public static function create($type, $value, $key = null)
     {
@@ -84,7 +84,7 @@ class Line
 
     /**
      * @param string $type
-     * @return static
+     * @return Line
      */
     public function setType($type)
     {
@@ -103,7 +103,7 @@ class Line
 
     /**
      * @param string $key
-     * @return static
+     * @return Line
      */
     public function setKey($key)
     {
@@ -121,7 +121,7 @@ class Line
 
     /**
      * @param string $value
-     * @return static
+     * @return Line
      */
     public function setValue($value)
     {
@@ -130,7 +130,7 @@ class Line
     }
 
     /**
-     * @return static
+     * @return Line
      */
     public function getBefore()
     {
@@ -138,8 +138,8 @@ class Line
     }
 
     /**
-     * @param static $before
-     * @return static
+     * @param Line $before
+     * @return Line
      */
     public function setBefore($before)
     {
@@ -148,7 +148,7 @@ class Line
     }
 
     /**
-     * @return static
+     * @return Line
      */
     public function getAfter()
     {
@@ -156,8 +156,8 @@ class Line
     }
 
     /**
-     * @param static $after
-     * @return static
+     * @param Line $after
+     * @return Line
      */
     public function setAfter($after)
     {
@@ -167,7 +167,7 @@ class Line
 
     /**
      * @param Line $line
-     * @return static
+     * @return Line
      */
     public function insertAfter($line)
     {
@@ -183,7 +183,7 @@ class Line
 
     /**
      * @param Line $line
-     * @return static
+     * @return Line
      */
     public function insertBefore($line)
     {
