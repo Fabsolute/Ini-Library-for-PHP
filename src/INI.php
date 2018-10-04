@@ -60,6 +60,24 @@ class INI
         return null;
     }
 
+    /**
+     * @return Line
+     */
+    public function getFirstLine()
+    {
+        return $this->first_line;
+    }
+
+    /**
+     * @param Line $line
+     * @return INI
+     */
+    public function setFirstLine($line)
+    {
+        $this->first_line = $line;
+        return $this;
+    }
+
     public function getSettingLine($section_name, $setting_name)
     {
         $section_line = $this->getSectionLine($section_name);
