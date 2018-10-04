@@ -1,4 +1,5 @@
 {
+  "name": "fabstract/ini",
   "autoload": {
     "psr-4": {
       "Fabstract\\INI\\": "src"
